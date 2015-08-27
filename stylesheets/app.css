@@ -454,6 +454,23 @@ select {
     float: left;
   }
 
+/*added by MH*/
+.column.page-centered,
+.column.page-centered {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  float: none;
+}
+
+/*added by MH*/
+.absolute-center {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
   .column.small-centered,
   .columns.small-centered {
     margin-left: auto;
