@@ -15,8 +15,8 @@
 
   <div class="row">
     <div class="large-12 columns text-center" style="padding-top:60px;padding-bottom: 30px;">
-      <img src="images/almost_flat_ui.png" alt="">
-      <h1 style="font-size: 60px;">TW Project Coster<br>
+      <!-- <img src="images/almost_flat_ui.png" alt=""> -->
+      <h1 style="font-size: 60px;">Company 1 User Manual<br>
       </h1>
     </div>
   </div>
@@ -29,6 +29,7 @@
         <dd class='active'>
         <a href="#vtab-panel1">Project Overview</a></dd>
         <dd><a href="#vtab-panel2">Task 1 - Introduction</a></dd>
+        <dd><a href="#vtab-panel3">Task 2 - Main Body</a></dd>
         <dd>
         </dl>
         <div class="tabs-content vertical">
@@ -225,6 +226,107 @@
   </div>
 </div>
 <!-- end of panel 2 -->
+
+<!-- start of tab 3 -->
+<div class="content" id="vtab-panel3">
+  <div class="row" id="doc-forms">
+    <div class="large-10 columns">
+      <hr>
+      <h3 class="text-center">Main Body</h3>
+      <hr>
+      <form class="custom">
+        <fieldset>
+          <legend>Edit Task Details</legend>
+
+          <div class="row">
+            <div class="large-12 columns">
+              <label>Task Name</label>
+              <input type="text" placeholder="Manual Introduction">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="large-6 columns">
+              <label>Cost Type</label>
+              <select class ="styled-select">
+                <option label="Non-fixed Cost">Non-fixed cost</option>
+                <option label="Fixed Cost">Fixed Cost</option>
+              </select>
+            </div>
+            <div class="large-6 columns">
+              <label>Rate per day/hr</label>
+              <select class ="styled-select">
+                <option label="£200">£200</option>
+                <option label="£300">£300</option>
+              </select>
+            </div>
+
+            <div class="large-6 columns">
+              <label>Forecast Days/hrs worked</label>
+              <input type="text" placeholder="">
+            </div>
+            <div class="large-6 columns">
+              <label>Actual Days/hrs worked</label>
+              <input type="text" placeholder="">
+            </div>
+
+            <div class="small-4 columns">
+              <div class="row collapse">
+                <label>Estimated Cost</label>
+                <div class="small-3 columns">
+                  <span class="prefix">£</span>
+                </div>
+                <div class="small-9 columns">
+                  <input type="text" placeholder="">
+                </div>
+              </div>
+            </div>
+            <div class="small-4 columns">
+              <div class="row collapse">
+                <label>Actual Cost</label>
+                <div class="small-3 columns">
+                  <span class="prefix">£</span>
+                </div>
+                <div class="small-9 columns">
+                  <input type="text" placeholder="">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="large-6 columns">
+              <label>Change Order Reference</label>
+              <input type="text" placeholder="">
+            </div>
+              <div class="large-6 columns">
+                <label>Change Reason</label>
+                <select class ="styled-select">
+                  <option label="Additional Work">Additional Work</option>
+                  <option label="Contact Difficulty">Contact Difficulty</option>
+                  <option label="Delayed Review">Delayed Review</option>
+                </select>
+              </div>
+          </div>
+
+
+
+          <div class="row">
+            <div class="large-12 columns">
+
+              <button class="button radius" type="button"><img src="images/paperclip.png" alt=""> Attach Change Order</button>
+
+            </div>
+          </div>
+
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</div>
+<!-- end of panel 3 -->
+
+
 </div>
 </div>
 </div>
