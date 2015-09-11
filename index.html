@@ -28,7 +28,7 @@
       <dl class="tabs vertical" data-tab>
         <dd class='active'>
         <a href="#vtab-panel1">Project Overview</a></dd>
-        <dd><a href="#vtab-panel2">Task 1 - Introduction</a></dd>
+        <dd><a href="#vtab-panel2">Task 1 - Manual Introduction</a></dd>
         <dd><a href="#vtab-panel3">Task 2 - Main Body</a></dd>
         <dd>
         </dl>
@@ -195,47 +195,56 @@
             </div>
           </div>
 
-          <div class="row">
-            <div class="large-6 columns">
-              <label>Change Order Reference</label>
-              <input type="text" placeholder="">
-            </div>
-              <div class="large-6 columns">
-                <label>Change Reason</label>
-                <select class ="styled-select">
-                  <option label="Additional Work">Additional Work</option>
-                  <option label="Contact Difficulty">Contact Difficulty</option>
-                  <option label="Delayed Review">Delayed Review</option>
-                </select>
-              </div>
-          </div>
 
-<div class="row">
-            <div class="large-6 columns">
-              <label>Change Order Reference</label>
-              <input type="text" placeholder="">
-            </div>
-              <div class="large-6 columns">
-                <label>Change Reason</label>
-                <select class ="styled-select">
-                  <option label="Additional Work">Contact Difficulty</option>
-                  <option label="Contact Difficulty">Additional Work</option>
-                  <option label="Delayed Review">Delayed Review</option>
-                </select>
-              </div>
-          </div>
+                <h5>Change Orders</h5>
+                    <table>
+                      <thead>
+                        <tr>
+                          <th style="width:40%">Change Order Reference</th>
+                          <th style="width:40%">Change Reason</th>
+                          <th>Attach</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+
+                        <tr>
+                          <td><label></label><input type="text" placeholder=""></td>
+                          <td>
+                            <label></label>
+                            <select class ="styled-select">
+                              <option label="Additional Work">Additional Work</option>
+                              <option label="Contact Difficulty">Contact Difficulty</option>
+                              <option label="Delayed Review">Delayed Review</option>
+                            </select>
+                          </td>
+                          <td><button type="button" class="button tiny">Attach</button></td>
+                        </tr>
+                        <tr>
+                          <td><label></label><input type="text" placeholder=""></td>
+                          <td>
+                            <label></label>
+                            <select class ="styled-select">
+                              <option label="Additional Work">Additional Work</option>
+                              <option label="Contact Difficulty">Contact Difficulty</option>
+                              <option label="Delayed Review">Delayed Review</option>
+                            </select>
+                          </td>
+                          <td><button type="button" class="button tiny">Attach</button></td>
+                        </tr>
+                      </tbody>
+                    </table>
 
 <div class="row">
             <div class="large-12 columns">
 
-              <button class="button radius" type="button">Add another Change Order</button>
+              <button type="button" class="button">Add another Change Order</button>
 
             </div>
           </div>
           <div class="row">
             <div class="large-12 columns">
 
-              <button class="button radius" type="button">Save</button>
+              <button type="button" class="button">Save</button>
 
             </div>
           </div>

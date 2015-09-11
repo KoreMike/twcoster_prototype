@@ -4622,8 +4622,15 @@ div.switch.round label {
 table {
   background: white;
   margin-bottom: 1.25rem;
-  border: solid 2px #ecf0f1;
+  border: solid 2px gray;
 }
+
+th {
+    background-color: #F2e494;
+    color: white;
+    border: solid 2px gray;
+}
+
 table thead,
 table tfoot {
   background: whitesmoke;
