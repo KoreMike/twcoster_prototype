@@ -30,6 +30,7 @@
         <a href="#vtab-panel1">Project Overview</a></dd>
         <dd><a href="#vtab-panel2">Task 1 - Manual Introduction</a></dd>
         <dd><a href="#vtab-panel3">Task 2 - Main Body</a></dd>
+        <dd><a href="#vtab-panel3">Task 3 - Index</a></dd>
         <dd>
         </dl>
         <div class="tabs-content vertical">
@@ -110,16 +111,27 @@
           </div>
 
 
-          <div class="row" id="doc-almost-flat-button-groups">
-            <div class="large-12 columns">
+          <div class="row">
+                      <div class="large-12 columns">
 
-              <ul class="button-group">
-                <li><a href="#" class="large button">Save</a></li>
-                <li><a href="#" class="large button">Add Project Task</a></li>
-              </ul>
+                        <button type="button" class="button">Save</button>
 
-            </div>
-          </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="large-12 columns">
+
+                        <button type="button" class="button">Add Project Task</button>
+
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="large-12 columns">
+
+                        <button type="button" class="button">Generate Invoice</button>
+
+                      </div>
+                    </div>
 
         </fieldset>
       </form>
@@ -358,7 +370,136 @@
   </div>
 </div>
 <!-- end of panel 3 -->
+<div class="content active" id="vtab-panel4">
+<!-- start of tab 4 -->
+<div class="row" id="doc-forms">
+<div class="large-10 columns">
+  <hr>
+  <h3 class="text-center">Index</h3>
+  <hr>
+  <form class="custom">
+    <fieldset>
+      <legend>Edit Task Details</legend>
 
+      <div class="row">
+        <div class="large-12 columns">
+          <label>Task Name</label>
+          <input type="text" placeholder="Manual Introduction">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="large-6 columns">
+          <label>Cost Type</label>
+          <select class ="styled-select">
+            <option label="Non-fixed Cost">Non-fixed cost</option>
+            <option label="Fixed Cost">Fixed Cost</option>
+          </select>
+        </div>
+        <div class="large-6 columns">
+          <label>Rate per day/hr</label>
+          <select class ="styled-select">
+            <option label="£200">£200</option>
+            <option label="£300">£300</option>
+          </select>
+        </div>
+
+        <div class="large-6 columns">
+          <label>Forecast Days/hrs worked</label>
+          <input type="text" placeholder="">
+        </div>
+        <div class="large-6 columns">
+          <label>Actual Days/hrs worked</label>
+          <input type="text" placeholder="">
+        </div>
+
+        <div class="small-4 columns">
+          <div class="row collapse">
+            <label>Estimated Cost</label>
+            <div class="small-3 columns">
+              <span class="prefix">£</span>
+            </div>
+            <div class="small-9 columns">
+              <input type="text" placeholder="">
+            </div>
+          </div>
+        </div>
+        <div class="small-4 columns">
+          <div class="row collapse">
+            <label>Actual Cost</label>
+            <div class="small-3 columns">
+              <span class="prefix">£</span>
+            </div>
+            <div class="small-9 columns">
+              <input type="text" placeholder="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+            <h5>Change Orders</h5>
+                <table>
+                  <thead>
+                    <tr>
+                      <th style="width:20%">CO Reference</th>
+                      <th style="width:30%">Change Reason</th>
+                      <th style="width:20%">Attach</th>
+                      <th style="width:30%">File</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+
+                    <tr>
+                      <td><label></label><input type="text" placeholder=""></td>
+                      <td>
+                        <label></label>
+                        <select class ="styled-select">
+                          <option label="Additional Work">Additional Work</option>
+                          <option label="Contact Difficulty">Contact Difficulty</option>
+                          <option label="Delayed Review">Delayed Review</option>
+                        </select>
+                      </td>
+                      <td><button type="button" class="button tiny">Attach</button></td>
+                      <td><code>CO_1501.doc</code></td>
+                    </tr>
+
+                    <tr>
+                      <td><label></label><input type="text" placeholder=""></td>
+                      <td>
+                        <label></label>
+                        <select class ="styled-select">
+                          <option label="Additional Work">Additional Work</option>
+                          <option label="Contact Difficulty">Contact Difficulty</option>
+                          <option label="Delayed Review">Delayed Review</option>
+                        </select>
+                      </td>
+                      <td><button type="button" class="button tiny">Attach</button></td>
+                      <td><code></code></td>
+                    </tr>
+                  </tbody>
+                </table>
+
+<div class="row">
+        <div class="large-12 columns">
+
+          <button type="button" class="button">Add another Change Order</button>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-12 columns">
+
+          <button type="button" class="button">Save</button>
+
+        </div>
+      </div>
+</fieldset>
+</form>
+</div>
+</div>
+</div>
+<!--  end of tab 4 -->
 
 </div>
 </div>
